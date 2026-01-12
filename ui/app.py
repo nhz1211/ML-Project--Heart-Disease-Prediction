@@ -6,10 +6,10 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load trained model
-model = joblib.load("models/final_model.pkl")
+model = joblib.load("../models/final_model.pkl")
 
 # Load dataset for visualization
-df = pd.read_csv("data/cleaned_heart_binary.csv")
+df = pd.read_csv("../data/cleaned_heart_binary.csv")
 
 st.set_page_config(page_title="Heart Disease Predictor", layout="wide")
 
